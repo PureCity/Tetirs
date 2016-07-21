@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/a_begin_background"
+    tools:context=".MainActivity" 
+    >
+    
+	<LinearLayout
+	     android:id="@+id/A_Begin_Layout_UP"
+	     android:layout_width="match_parent"
+	     android:layout_height="0dp"
+	     android:orientation="vertical"
+	     android:gravity="center"
+	     android:layout_weight="1"
+	    >
+	    <TextView
+        android:id="@+id/A_Begin_Text_Title"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/a_Begin_Text_Title"
+        android:textColor="@color/a_Begin_Text_Title"
+        android:textSize="30sp"
+        />
+	</LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/A_Begin_Layout_Down"
+        android:layout_width="match_parent"
+	    android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:gravity="bottom"
+        >
+        <Button 
+        android:id="@+id/A_Begin_Button_StartGame"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/a_Begin_Button_StartGame"
+        android:textColor="@color/a_Begin_Button_StartGame"
+        />
+    
+	    <Button 
+	        android:id="@+id/A_Begin_Button_GameHelp"
+	        android:gravity="center_horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/a_Begin_Button_GameHelp"
+	        />
+	    
+	    <Button 
+	        android:id="@+id/A_Begin_Button_AboutGame"
+	        android:gravity="center_horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/a_Begin_Button_AboutGame"
+	        />
+	    
+	    <Button 
+	        android:id="@+id/A_Begin_Button_ExitGame"
+	        android:gravity="center_horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/a_Begin_Button_ExitGame"
+	        />
+    </LinearLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 开始界面各字体颜色  -->
+    <color name="a_Begin_Text_Title">#0000FF</color>
+    <color name="a_Begin_Button_StartGame">#000080</color>
+    
+    <!-- 关于界面各字符串颜色 -->
+    <color name="a_About_Text_Title">#FF00FF</color>
+    
+    <!-- 游戏界面各字符串颜色设置 -->
+    <color name="basic_score_color">#000000</color>
+    
+    <!-- 游戏界面产生一个图形的面板默认颜色 -->
+    <color name="basic_next_picture_color">#F0E68C</color>
+    
+    <!-- 游戏面板格子默认背景颜色 -->
+    <color name="basic_game_grid_background_color">#00FF7F</color>
+    <color name="basic_game_grid_padding_color">#FFFF00</color>
+    
+    <!-- 游戏过程中图形背景色 -->
+    <color name="game_picture_down_background_color">#0000FF</color>
+    <color name="game_grid_fixed">#800080</color>
+    
+    <!-- 得分的背景颜色 -->
+    <color name="score_background_color">#FF0000</color>
+    
+</resources>

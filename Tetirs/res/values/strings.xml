@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 全局字符变量 -->
+    <string name="app_name">俄罗斯方块</string>
+    <string name="action_settings">settings</string>
+
+    <!-- 开始界面字符串 -->
+    <string name="a_Begin_Text_Title">俄罗斯方块</string>
+    <string name="a_Begin_Button_StartGame">开始游戏</string>
+    <string name="a_Begin_Button_GameHelp">游戏帮助</string>
+    <string name="a_Begin_Button_AboutGame">关于</string>
+    <string name="a_Begin_Button_ExitGame">退出</string>
+
+    <!-- 游戏介绍 -->
+    <string name="a_About_Text_Title">名称：锦城·俄罗斯方块</string>
+    <string name="a_About_Text_Version">版本:1.7</string>
+    <string name="a_About_Text_Author">作者：锦城·暮叶</string>
+    <string name="a_About_Text_Describle">描述：一个俄罗斯方块游戏的初级版本,后续过程将逐渐加强娱乐性</string>
+    <string name="a_About_Text_Change">        	更新：暂无</string>
+
+    <!-- 游戏操作按钮 -->
+    <string name="game_pause">暂停</string>
+    <string name="game_goon">继续</string>
+    <string name="button_up">变形</string>
+    <string name="button_left">左移</string>
+    <string name="button_right">右移</string>
+    <string name="button_dwon">加速</string>
+
+    <!-- 游戏提示信息 -->
+    <string name="score_string">得分: </string>
+    <string name="basic_score">0</string>
+
+    <!-- 游戏界面图形注释 -->
+    <string name="Next_picture_panel">下一个图片显示区</string>
+    <string name="back">返回</string>
+
+    <!-- 分数界面字符 -->
+    <string name="score_super_high">尊敬的俄罗斯方块大神！</string>
+    <string name="score_very_high">俄罗斯方块宗师！</string>
+    <string name="score_middle_high">俄罗斯方块大师！</string>
+    <string name="score_high">俄罗斯方块高手！</string>
+    <string name="score_middle">水平不错嘛!</string>
+    <string name="score_just_so_so">技术还行</string>
+    <string name="score_general">水平一般,多多努力</string>
+    <string name="score_little">有待提高</string>
+    <string name="score_low">请再多多努力</string>
+    <string name="score_very_low">一看就是新手</string>
+    <string name="score_super_low">请查看游戏帮助文档以愉快的游戏</string>
+
+</resources>
